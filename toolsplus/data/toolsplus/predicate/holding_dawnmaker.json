@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "minecraft:golden_sword"
+                ],
+                "components": {
+                    "minecraft:item_name": {
+                        "bold":true,
+                        "color":"yellow",
+                        "italic":true,
+                        "shadow_color":-12827478,
+                        "text":"Dawnmaker"
+                    }
+                }
+            }
+        }
+    }
+}

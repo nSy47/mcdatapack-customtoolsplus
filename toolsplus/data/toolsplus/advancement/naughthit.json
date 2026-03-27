@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_direct": true    
+                    },
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "items": [
+                                    "minecraft:netherite_sword"
+                                ],
+                                "components": {
+                                    "minecraft:item_name": {
+                                        "bold":true,
+                                        "color":"#ff0000",
+                                        "italic":true,
+                                        "shadow_color":-1,
+                                        "text":"[无] Naught"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "toolsplus:naught/naughthit"
+    }
+}

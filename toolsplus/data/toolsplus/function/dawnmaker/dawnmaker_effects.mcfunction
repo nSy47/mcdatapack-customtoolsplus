@@ -1,0 +1,1 @@
+execute if score #ontick tickCount matches 10 if predicate toolsplus:holding_dawnmaker run particle enchant ~ ~2.5 ~ 0 -1 0 0.5 3

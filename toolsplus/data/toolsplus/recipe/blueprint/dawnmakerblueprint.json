@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bdb",
+    "cac",
+    "bcb"
+  ],
+  "key": {
+    "a": "minecraft:paper",
+    "b": "minecraft:blaze_rod",
+    "c": "gold_block",
+    "d": "echo_shard"
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "components": {
+      "minecraft:item_name": {
+        "text": "[RECIPE]: Dawnmaker"
+      },
+      "enchantment_glint_override": true,
+      "minecraft:lore": [
+        {"text": "Craft to unlock the recipe for the"},
+        {"text": "Dawnmaker"}
+      ]
+    },
+    "count": 1
+  }
+}

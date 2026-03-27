@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "minecraft:diamond_sword"
+                ],
+                "components": {
+                    "minecraft:item_name": {
+                        "bold":true,
+                        "color":"#2de0ff",
+                        "italic":true,
+                        "shadow_color":-1,
+                        "text":"Everbright Polestar"
+                    }
+                }
+            }
+        }
+    }
+}

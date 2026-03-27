@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_direct": true    
+                    },
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "items": [
+                                    "minecraft:netherite_sword"
+                                ],
+                                "components": {
+                                    "minecraft:item_name": {
+                                        "text": "Titanium Greatsword",
+                                        "type": "text",
+                                        "color": "#4c0069"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "toolsplus:tisword/tiswordhit_effects"
+    }
+}

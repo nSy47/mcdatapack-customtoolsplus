@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "dfb",
+    "cac",
+    "bed"
+  ],
+  "key": {
+    "a": "diamond_sword",
+    "b": "minecraft:diamond_spear",
+    "c": "minecraft:sculk_shrieker",
+    "d": "ender_eye",
+    "e": "beacon",
+    "f": "calibrated_sculk_sensor"
+  },
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "components": {
+      "minecraft:item_name": {
+        "bold":true,
+        "color":"#ff0000",
+        "italic":true,
+        "shadow_color":-1,
+        "text":"[无] Naught"
+      },
+      "minecraft:custom_name": {
+        "bold":true,
+        "color":"#ff0000",
+        "italic":true,
+        "shadow_color":-1,
+        "text":"[无] Naught"
+      },
+      "unbreakable": {},
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:movement_speed",
+          "id": "movement_speed",
+          "amount": 0.15,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "hidden"
+          }
+        },
+        {
+          "type": "entity_interaction_range",
+          "id": "entity_interaction_range",
+          "amount": 0.5,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "hidden"
+          }
+        },
+        {
+          "type": "minecraft:sweeping_damage_ratio",
+          "id": "sweeping_damage_ratio",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "hidden"
+          }
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "attack_speed",
+          "amount": 0.1,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": { 
+              "text": "+N§kAUGHT§k",
+              "color": "#000000",
+              "shadow_color": -393218
+            }
+          }
+        },
+        {
+          "type": "minecraft:attack_damage",
+          "id": "attack_damage",
+          "amount": 14,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": { 
+              "text": "+SLA§kSHED DREAMS§k",
+              "color": "#000000",
+              "shadow_color": -393218
+            }
+          }
+        },
+        {
+          "type": "minecraft:attack_knockback",
+          "id": "attack_knockback",
+          "amount": 1,
+          "operation": "add_multiplied_base",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": { 
+              "text": "+EM§kANATOR§k",
+              "color": "#000000",
+              "shadow_color": -393218
+            }
+          }
+        }
+      ],
+      "minecraft:lore": [
+        {"color": "#AAAAAA","text": "Trilateral Wiltcross IX","italic": false},
+        {"color": "#AAAAAA","text": "Slashed Dream Cries in Red IX","italic": false},
+        {"color": "#AAAAAA","text": "Nihility IX","italic": false, "bold": true},
+        {"color": "#ca6fff","text": "\"I weep for the departed\""}
+      ],
+      "enchantment_glint_override": true,
+      "repair_cost": 99
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "cac",
+    "def"
+  ],
+  "key": {
+    "a": "minecraft:paper",
+    "b": "echo_shard",
+    "c": "silence_armor_trim_smithing_template",
+    "d": "iron_sword",
+    "e": "golden_sword",
+    "f": "diamond_sword"
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "components": {
+      "minecraft:item_name": {
+        "text": "[RECIPE]: [无] Naught"
+      },
+      "enchantment_glint_override": true,
+      "minecraft:lore": [
+        {"text": "Craft to unlock the recipe for"},
+        {"text": "[无] Naught"}
+      ]
+    },
+    "count": 1
+  }
+}

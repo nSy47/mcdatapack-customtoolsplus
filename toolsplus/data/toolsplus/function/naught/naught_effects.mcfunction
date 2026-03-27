@@ -1,0 +1,1 @@
+execute if score #ontick tickCount matches 15 if predicate toolsplus:holding_naught run particle minecraft:sculk_soul ~ ~ ~ 0 -1 0 0.1 1

@@ -1,0 +1,1 @@
+execute as @s run effect give @s poison 3 2 false

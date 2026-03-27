@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "chest": {
+                "items": [
+                    "minecraft:elytra"
+                ],
+                "components": {
+                    "minecraft:item_name": {
+                        "bold":true,
+                        "color":"yellow",
+                        "italic":true,
+                        "shadow_color":-12827478,
+                        "text":"Wings of Worldbearing"
+                    }
+                }
+            }
+        }
+    }
+}

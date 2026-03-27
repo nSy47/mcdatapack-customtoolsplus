@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbc",
+    "bab",
+    "dbb"
+  ],
+  "key": {
+    "a": "minecraft:paper",
+    "b": "diamond",
+    "c": "diamond_spear",
+    "d": "minecraft:prismarine_shard"
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "components": {
+      "minecraft:item_name": {
+        "text": "[RECIPE]: Everbright Polestar"
+      },
+      "enchantment_glint_override": true,
+      "minecraft:lore": [
+        {"text": "Craft to unlock the recipe for"},
+        {"text": "Everbright Polestar"}
+      ]
+    },
+    "count": 1
+  }
+}

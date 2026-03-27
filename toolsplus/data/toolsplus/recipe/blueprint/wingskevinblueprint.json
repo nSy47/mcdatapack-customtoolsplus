@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "cac",
+    "bdb"
+  ],
+  "key": {
+    "a": "minecraft:paper",
+    "b": "minecraft:phantom_membrane",
+    "c": "gold_block",
+    "d": "flow_armor_trim_smithing_template"
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "components": {
+      "minecraft:item_name": {
+        "text": "[RECIPE]: Wings of Worldbearing"
+      },
+      "enchantment_glint_override": true,
+      "minecraft:lore": [
+        {"text": "Craft to unlock the recipe for"},
+        {"text": "Wings of Worldbearing"}
+      ]
+    },
+    "count": 1
+  }
+}

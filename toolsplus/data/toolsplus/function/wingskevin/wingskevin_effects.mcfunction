@@ -1,0 +1,2 @@
+execute if score #ontick tickCount matches 15 if predicate toolsplus:wearing_wingskevin run particle firefly ~ ~1 ~ 0 -1 0 0.5 1
+execute if score #ontick tickCount matches 10 if predicate toolsplus:wearing_wingskevin run particle dragon_breath ~ ~1 ~ 0 -1 0 0.03 2

@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_direct": true    
+                    },
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "items": [
+                                    "minecraft:iron_spear"
+                                ],
+                                "components": {
+                                    "minecraft:item_name": {
+                                        "color":"#ffffff",
+                                        "italic":true,
+                                        "text":"Abyss Flower"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "toolsplus:abyssflower/abyssflowerhit"
+    }
+}

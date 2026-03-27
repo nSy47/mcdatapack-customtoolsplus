@@ -1,0 +1,1 @@
+execute if predicate toolsplus:holding_everbrightpolestar run effect give @s glowing 2

@@ -1,0 +1,24 @@
+{  
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+                "netherite_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "toolsplus:blueprint/dawnmakerblueprint",
+      "toolsplus:blueprint/naughtblueprint",
+      "toolsplus:blueprint/wingskevinblueprint",
+      "toolsplus:blueprint/everbrightpolestarblueprint"
+    ]
+  }
+}
