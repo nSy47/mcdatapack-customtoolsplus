@@ -5,7 +5,7 @@
             "conditions": {
                 "damage": {
                     "type": {
-                        "is_direct": true    
+                        "is_direct": true
                     },
                     "source_entity": {
                         "equipment": {
@@ -15,9 +15,9 @@
                                 ],
                                 "components": {
                                     "minecraft:item_name": {
-                                        "color":"#ffffff",
-                                        "italic":true,
-                                        "text":"Abyss Flower"
+                                        "color": "#ffffff",
+                                        "italic": true,
+                                        "text": "Abyss Flower"
                                     }
                                 }
                             }

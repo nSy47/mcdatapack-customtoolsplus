@@ -1,69 +1,80 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "pattern": [
-    " c ",
-    "bab",
-    " b "
-  ],
-  "key": {
-    "a": "minecraft:elytra",
-    "b": "enchanted_golden_apple",
-    "c": "totem_of_undying"
-  },
-  "result": {
-    "id": "minecraft:elytra",
-    "components": {
-      "minecraft:item_name": {
-        "bold":true,
-        "color":"yellow",
-        "italic":true,
-        "shadow_color":-12827478,
-        "text":"Wings of Worldbearing"
-      },
-      "minecraft:lore": [
-        {"color": "yellow","text": "\"But should dawn have never existed,"},
-        {"color": "yellow","text": "let the fires of rage burn this body"},
-        {"color": "yellow","text": "to ashes and transform into the"},
-        {"color": "yellow","text": "blazing sun of tomorrow, K§khaslana\""}
-      ],
-      "minecraft:attribute_modifiers": [
-        {
-          "type": "armor",
-          "id": "armor",
-          "amount": 1,
-          "operation": "add_value",
-          "slot": "chest"
-        },
-        {
-          "type": "armor_toughness",
-          "id": "armor_toughness",
-          "amount": 1,
-          "operation": "add_value",
-          "slot": "chest"
-        },
-        {
-          "type": "knockback_resistance",
-          "id": "knockback_resistance",
-          "amount": 0.1,
-          "operation": "add_value",
-          "slot": "chest"
-        },
-        {
-          "type": "max_health",
-          "id": "max_health",
-          "amount": 6,
-          "operation": "add_value",
-          "slot": "chest",
-          "display": {
-            "type": "hidden"
-          }
-        }
-
-      ],
-      "enchantment_glint_override": true,
-      "repair_cost": 20
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " c ",
+        "bab",
+        " b "
+    ],
+    "key": {
+        "a": "minecraft:elytra",
+        "b": "enchanted_golden_apple",
+        "c": "totem_of_undying"
     },
-    "count": 1
-  }
+    "result": {
+        "id": "minecraft:elytra",
+        "components": {
+            "minecraft:item_name": {
+                "bold": true,
+                "color": "yellow",
+                "italic": true,
+                "shadow_color": -12827478,
+                "text": "Wings of Worldbearing"
+            },
+            "minecraft:lore": [
+                {
+                    "color": "yellow",
+                    "text": "\"But should dawn have never existed,"
+                },
+                {
+                    "color": "yellow",
+                    "text": "let the fires of rage burn this body"
+                },
+                {
+                    "color": "yellow",
+                    "text": "to ashes and transform into the"
+                },
+                {
+                    "color": "yellow",
+                    "text": "blazing sun of tomorrow.\""
+                }
+            ],
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "armor",
+                    "id": "armor",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "chest"
+                },
+                {
+                    "type": "armor_toughness",
+                    "id": "armor_toughness",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "chest"
+                },
+                {
+                    "type": "knockback_resistance",
+                    "id": "knockback_resistance",
+                    "amount": 0.1,
+                    "operation": "add_value",
+                    "slot": "chest"
+                },
+                {
+                    "type": "max_health",
+                    "id": "max_health",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "display": {
+                        "type": "hidden"
+                    }
+                }
+            ],
+            "enchantment_glint_override": true,
+            "repair_cost": 50
+        },
+        "count": 1
+    }
 }

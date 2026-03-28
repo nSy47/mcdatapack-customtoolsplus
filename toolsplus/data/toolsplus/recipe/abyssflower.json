@@ -1,64 +1,72 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "pattern": [
-    "bdb",
-    "cac",
-    "bdb"
-  ],
-  "key": {
-    "a": "iron_spear",
-    "b": "wither_rose",
-    "c": "wither_skeleton_skull",
-    "d": "iron_chain"
-  },
-  "result": {
-    "id": "minecraft:iron_spear",
-    "components": {
-      "minecraft:item_name": {
-        "color":"#ffffff",
-        "italic":true,
-        "text":"Abyss Flower"
-      },
-      "minecraft:custom_name": {
-        "color":"#ffffff",
-        "italic":true,
-        "text":"Abyss Flower"
-      },
-      "unbreakable": {},
-      "minecraft:attribute_modifiers": [
-        {
-          "type": "minecraft:attack_speed",
-          "id": "attack_speed",
-          "amount": -3,
-          "operation": "add_value",
-          "slot": "mainhand",
-          "display": {
-            "type": "hidden"
-          }
-        },
-        {
-          "type": "minecraft:attack_damage",
-          "id": "attack_damage",
-          "amount": 12,
-          "operation": "add_value",
-          "slot": "mainhand"
-        },
-        {
-          "type": "minecraft:attack_knockback",
-          "id": "attack_knockback",
-          "amount": -0.5,
-          "operation": "add_value",
-          "slot": "mainhand"
-        }
-      ],
-      "minecraft:lore": [
-        {"color": "#696969","text": "Divine Key #6;", "italic": false},
-        {"color": "#696969","text": "Core of Death", "italic": false}
-      ],
-      "enchantment_glint_override": true,
-      "repair_cost": 10
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "bdb",
+        "cac",
+        "bdb"
+    ],
+    "key": {
+        "a": "iron_spear",
+        "b": "wither_rose",
+        "c": "wither_skeleton_skull",
+        "d": "iron_chain"
     },
-    "count": 1
-  }
+    "result": {
+        "id": "minecraft:iron_spear",
+        "components": {
+            "minecraft:item_name": {
+                "color": "#ffffff",
+                "italic": true,
+                "text": "Abyss Flower"
+            },
+            "minecraft:custom_name": {
+                "color": "#ffffff",
+                "italic": true,
+                "text": "Abyss Flower"
+            },
+            "unbreakable": {},
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:attack_speed",
+                    "id": "attack_speed",
+                    "amount": -3,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                        "type": "hidden"
+                    }
+                },
+                {
+                    "type": "minecraft:attack_damage",
+                    "id": "attack_damage",
+                    "amount": 12,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "type": "minecraft:attack_knockback",
+                    "id": "attack_knockback",
+                    "amount": -0.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+            ],
+            "minecraft:lore": [
+                {
+                    "color": "#696969",
+                    "text": "Divine Key #6;",
+                    "italic": false
+                },
+                {
+                    "color": "#696969",
+                    "text": "Core of Death",
+                    "italic": false
+                }
+            ],
+            "enchantment_glint_override": true,
+            "repair_cost": 30
+        },
+        "count": 1
+    }
 }

@@ -1,126 +1,138 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "pattern": [
-    "cfa",
-    " b ",
-    "dec"
-  ],
-  "key": {
-    "b": "netherite_sword",
-    "a": "minecraft:netherite_ingot",
-    "c": "minecraft:nether_star",
-    "d": "recovery_compass",
-    "e": "beacon",
-    "f": "totem_of_undying"
-  },
-  "result": {
-    "id": "minecraft:golden_sword",
-    "components": {
-      "minecraft:item_name": {
-        "bold":true,
-        "color":"yellow",
-        "italic":true,
-        "shadow_color":-12827478,
-        "text":"Dawnmaker"
-      },
-      "custom_name": {
-        "bold":true,
-        "color":"yellow",
-        "italic":true,
-        "shadow_color":-12827478,
-        "text":"Dawnmaker"
-      },
-      "unbreakable": {},
-      "minecraft:attribute_modifiers": [
-        {
-          "type": "minecraft:jump_strength",
-          "id": "jump_strength",
-          "amount": 1.5,
-          "operation": "add_multiplied_total",
-          "slot": "mainhand",
-          "display": {
-            "type": "hidden"
-          }
-        },
-        {
-          "type": "minecraft:movement_speed",
-          "id": "movement_speed",
-          "amount": 0.25,
-          "operation": "add_multiplied_total",
-          "slot": "mainhand",
-          "display": {
-            "type": "hidden"
-          }
-        },
-        {
-          "type": "minecraft:attack_speed",
-          "id": "attack_speed",
-          "amount": -0.8,
-          "operation": "add_multiplied_total",
-          "slot": "mainhand",
-          "display": {
-            "type": "override",
-            "value": { 
-              "text": "+33550336 §kKevinKhaslana",
-              "color": "#a5a500"
-            }
-          }
-        },
-        {
-          "type": "minecraft:attack_damage",
-          "id": "attack_damage",
-          "amount": 18.33550336,
-          "operation": "add_value",
-          "slot": "mainhand",
-          "display": {
-            "type": "override",
-            "value": { 
-              "text": "+33550336 §kKevinKhaslana",
-              "color": "#a5a500"
-            }
-          }
-        },
-        {
-          "type": "minecraft:attack_knockback",
-          "id": "attack_knockback",
-          "amount": 2,
-          "operation": "add_multiplied_base",
-          "slot": "mainhand",
-          "display": {
-            "type": "hidden"
-          }
-        },
-        {
-          "type": "safe_fall_distance",
-          "id": "safe_fall_distance",
-          "amount": 7,
-          "operation": "add_value",
-          "slot": "mainhand",
-          "display": {
-            "type": "hidden"
-          } 
-        },
-        {
-          "type": "minecraft:sweeping_damage_ratio",
-          "id": "sweeping_damage_ratio",
-          "amount": 2,
-          "operation": "add_value",
-          "slot": "mainhand",
-          "display": {
-            "type": "hidden"
-          }
-        }
-      ],
-      "minecraft:lore": [
-        {"color": "yellow","text": "\"Once again at the journey's end,"},
-        {"color": "yellow","text": "for 33550336 recurrences"},
-        {"color": "yellow","text": "the man's silhouette was swallowed"},
-        {"color": "yellow","text": "by the sweltering golden sun.\""}
-      ],
-      "enchantment_glint_override": true,
-      "repair_cost": 99
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "cfa",
+        " b ",
+        "dec"
+    ],
+    "key": {
+        "b": "netherite_sword",
+        "a": "minecraft:netherite_ingot",
+        "c": "minecraft:nether_star",
+        "d": "recovery_compass",
+        "e": "beacon",
+        "f": "totem_of_undying"
     },
-    "count": 1
-  }
+    "result": {
+        "id": "minecraft:golden_sword",
+        "components": {
+            "minecraft:item_name": {
+                "bold": true,
+                "color": "yellow",
+                "italic": true,
+                "shadow_color": -12827478,
+                "text": "Dawnmaker"
+            },
+            "custom_name": {
+                "bold": true,
+                "color": "yellow",
+                "italic": true,
+                "shadow_color": -12827478,
+                "text": "Dawnmaker"
+            },
+            "unbreakable": {},
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:jump_strength",
+                    "id": "jump_strength",
+                    "amount": 1.5,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand",
+                    "display": {
+                        "type": "hidden"
+                    }
+                },
+                {
+                    "type": "minecraft:movement_speed",
+                    "id": "movement_speed",
+                    "amount": 0.25,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand",
+                    "display": {
+                        "type": "hidden"
+                    }
+                },
+                {
+                    "type": "minecraft:attack_speed",
+                    "id": "attack_speed",
+                    "amount": -0.8,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand",
+                    "display": {
+                        "type": "override",
+                        "value": {
+                            "text": "+33550336 §kKevinKhaslana",
+                            "color": "#a5a500"
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:attack_damage",
+                    "id": "attack_damage",
+                    "amount": 18.33550336,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                        "type": "override",
+                        "value": {
+                            "text": "+33550336 §kKevinKhaslana",
+                            "color": "#a5a500"
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:attack_knockback",
+                    "id": "attack_knockback",
+                    "amount": 2,
+                    "operation": "add_multiplied_base",
+                    "slot": "mainhand",
+                    "display": {
+                        "type": "hidden"
+                    }
+                },
+                {
+                    "type": "safe_fall_distance",
+                    "id": "safe_fall_distance",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                        "type": "hidden"
+                    }
+                },
+                {
+                    "type": "minecraft:sweeping_damage_ratio",
+                    "id": "sweeping_damage_ratio",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                        "type": "hidden"
+                    }
+                }
+            ],
+            "minecraft:lore": [
+                {
+                    "color": "yellow",
+                    "text": "\"Once again at the journey's end,"
+                },
+                {
+                    "color": "yellow",
+                    "text": "for 33550336 recurrences"
+                },
+                {
+                    "color": "yellow",
+                    "text": "the man's silhouette was swallowed"
+                },
+                {
+                    "color": "yellow",
+                    "text": "by the sweltering golden sun.\""
+                }
+            ],
+            "enchantment_glint_override": true,
+            "repair_cost": 999
+        },
+        "count": 1
+    }
 }
