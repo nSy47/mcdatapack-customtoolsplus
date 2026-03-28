@@ -1,0 +1,35 @@
+{  
+    "display": {
+      "icon": {
+        "id": "minecraft:netherite_sword"
+      },
+      "title": "River of Death",
+      "description": "Craft the recipe for Naught",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": [
+                "minecraft:paper"
+            ],
+            "components": {
+              "minecraft:item_name": [
+                {"text": "[RECIPE]: [无] Naught"}
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "toolsplus:naught"
+    ]
+  }
+}

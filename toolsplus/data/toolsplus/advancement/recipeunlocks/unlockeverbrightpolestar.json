@@ -1,0 +1,35 @@
+{  
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond_sword"
+      },
+      "title": "Exostrider",
+      "description": "Craft the recipe for Everbright Polestar",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+            {
+            "items": [
+                "minecraft:paper"
+            ],
+            "components": {
+              "minecraft:item_name": [
+                {"text": "[RECIPE]: Everbright Polestar"}
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "toolsplus:everbrightpolestar"
+    ]
+  }
+}
