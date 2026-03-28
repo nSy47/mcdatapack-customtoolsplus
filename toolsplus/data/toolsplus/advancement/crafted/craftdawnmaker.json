@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:golden_sword"
+        },
+        "title": "Dawnbreaker",
+        "description": "Craft Dawnmaker",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:golden_sword"
+                        ],
+                        "components": {
+                            "minecraft:item_name": {
+                                "bold": true,
+                                "color": "yellow",
+                                "italic": true,
+                                "shadow_color": -12827478,
+                                "text": "Dawnmaker"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

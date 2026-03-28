@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:elytra"
+        },
+        "title": "\"He Who Bears the World Must Burn\"",
+        "description": "Craft Wings of Worldbearing",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:elytra"
+                        ],
+                        "components": {
+                            "minecraft:item_name": {
+                                "bold": true,
+                                "color": "yellow",
+                                "italic": true,
+                                "shadow_color": -12827478,
+                                "text": "Wings of Worldbearing"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
