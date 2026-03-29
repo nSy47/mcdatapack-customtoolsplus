@@ -3,8 +3,8 @@
     "icon": {
       "id": "enchanted_book"
     },
-    "title": "New stuff?",
-    "description": "Unlock the knowledge of lost tools",
+    "title": "CustomTools",
+    "description": "Obtain recipes for basic tools",
     "background": "block/sculk_sensor_top",
     "hidden": false,
     "frame": "task",

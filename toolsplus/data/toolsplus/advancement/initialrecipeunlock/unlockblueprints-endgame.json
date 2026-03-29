@@ -3,8 +3,8 @@
         "icon": {
             "id": "enchanted_book"
         },
-        "title": "More stuff???",
-        "description": "Unlock the knowledge of ancient tools",
+        "title": "CustomTools+",
+        "description": "Obtain recipes for advanced tools",
         "hidden": false,
         "frame": "task",
         "show_toast": true
