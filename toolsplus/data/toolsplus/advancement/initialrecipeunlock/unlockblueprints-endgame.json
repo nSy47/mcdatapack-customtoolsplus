@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "id": "enchanted_book"
+        },
+        "title": "More stuff???",
+        "description": "Unlock the knowledge of ancient tools",
+        "hidden": false,
+        "frame": "task",
+        "show_toast": true
+    },
+    "parent": "toolsplus:initialrecipeunlock/unlockblueprints",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "netherite_sword"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "toolsplus:blueprint/dawnmakerblueprint",
+            "toolsplus:blueprint/naughtblueprint",
+            "toolsplus:blueprint/wingskevinblueprint",
+            "toolsplus:blueprint/everbrightpolestarblueprint"
+        ]
+    }
+}

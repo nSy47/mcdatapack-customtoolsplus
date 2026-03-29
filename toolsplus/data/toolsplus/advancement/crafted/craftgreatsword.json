@@ -1,15 +1,15 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:iron_spear"
+            "id": "minecraft:iron_sword"
         },
-        "title": "Key of Creation",
-        "description": "Craft Abyss Flower",
+        "title": "Greatersword",
+        "description": "Craft Titanium Greatsword",
         "show_toast": true,
         "announce_to_chat": true,
-        "frame": "challenge"
+        "frame": "task"
     },
-    "parent": "toolsplus:recipeunlocks/unlockabyssflower",
+    "parent": "toolsplus:initialrecipeunlock/unlockblueprints",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:inventory_changed",
@@ -17,13 +17,13 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_spear"
+                            "minecraft:iron_sword"
                         ],
                         "components": {
                             "minecraft:item_name": {
-                                "color": "#ffffff",
-                                "italic": true,
-                                "text": "Abyss Flower"
+                                "text": "Titanium Greatsword",
+                                "type": "text",
+                                "color": "#4c0069"
                             }
                         }
                     }

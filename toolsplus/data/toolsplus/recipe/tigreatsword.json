@@ -7,12 +7,12 @@
         "c  "
     ],
     "key": {
-        "a": "minecraft:netherite_ingot",
-        "b": "minecraft:netherite_sword",
+        "a": "minecraft:iron_block",
+        "b": "minecraft:diamond_sword",
         "c": "minecraft:breeze_rod"
     },
     "result": {
-        "id": "minecraft:netherite_sword",
+        "id": "minecraft:iron_sword",
         "components": {
             "minecraft:item_name": {
                 "text": "Titanium Greatsword",
@@ -29,14 +29,14 @@
                 {
                     "type": "minecraft:jump_strength",
                     "id": "jump_strength",
-                    "amount": -0.25,
+                    "amount": -0.10,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },
                 {
                     "type": "minecraft:movement_speed",
                     "id": "movement_speed",
-                    "amount": -0.25,
+                    "amount": -0.05,
                     "operation": "add_value",
                     "slot": "mainhand"
                 },

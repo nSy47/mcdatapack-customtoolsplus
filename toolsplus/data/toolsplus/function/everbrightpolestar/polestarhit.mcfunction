@@ -3,5 +3,5 @@ execute if predicate toolsplus:holding_everbrightpolestar positioned ^ ^ ^3 as @
 execute if predicate toolsplus:holding_everbrightpolestar at @s run effect give @s jump_boost 5 4 false
 execute if predicate toolsplus:holding_everbrightpolestar at @s run effect give @s regeneration 3 1 false
 
-advancement revoke @s only toolsplus:polestarhit
+advancement revoke @s only toolsplus:temp/polestarhit
 tag @s remove toolsplus.attacker

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "enchanted_book"
+    },
+    "title": "New stuff?",
+    "description": "Unlock the knowledge of lost tools",
+    "background": "block/sculk_sensor_top",
+    "hidden": false,
+    "frame": "task",
+    "show_toast": true
+  },
+  "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "ancient_debris"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "toolsplus:blueprint/abyssflowerblueprint",
+            "toolsplus:tigreatsword"
+        ]
+    }
+}

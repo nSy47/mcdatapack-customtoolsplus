@@ -9,6 +9,7 @@
         "announce_to_chat": true,
         "frame": "challenge"
     },
+    "parent": "toolsplus:recipeunlocks/unlockdawnmaker",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:inventory_changed",

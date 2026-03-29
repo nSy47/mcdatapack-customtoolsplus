@@ -5,7 +5,7 @@
         "equipment": {
             "mainhand": {
                 "items": [
-                    "minecraft:netherite_sword"
+                    "minecraft:iron_sword"
                 ],
                 "components": {
                     "minecraft:item_name": {"text": "Titanium Greatsword","type": "text","color": "#4c0069"}

@@ -9,6 +9,7 @@
         "announce_to_chat": true,
         "frame": "challenge"
     },
+    "parent": "toolsplus:recipeunlocks/unlockeverbrightpolestar",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:inventory_changed",

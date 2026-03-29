@@ -11,7 +11,7 @@
                         "equipment": {
                             "mainhand": {
                                 "items": [
-                                    "minecraft:netherite_sword"
+                                    "minecraft:iron_sword"
                                 ],
                                 "components": {
                                     "minecraft:item_name": {
